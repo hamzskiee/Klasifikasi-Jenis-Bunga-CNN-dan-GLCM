@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>404 Not Found</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="hero">
+        <div class="small">404 Not Found</div>
+        <h1>Oops! Page Not Found</h1>
+        <p class="lead">
+          The page you are looking for doesn't exist. Click the button below to
+          go to the homepage.
+        </p>
+        <p style="margin-top: 22px">
+          <a class="btn" href="{{ url_for('index') }}">Back to Homepage</a>
+        </p>
+      </div>
+
+      <div class="big-404">404</div>
+
+      <div class="tiles" aria-hidden="true">
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #e6f9e9, #d9f6e2)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #eafcee, #dff8e9)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #e9f9eb, #e2f6ea)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #f3fff6, #ebfff1)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #f8fff9, #f0fff4)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #f9fff9, #f2fff5)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #f6fff8, #eefef3)"
+        ></div>
+        <div
+          class="tile"
+          style="background: linear-gradient(90deg, #effff6, #e8fff0)"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
